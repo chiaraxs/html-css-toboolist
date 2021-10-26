@@ -4,18 +4,61 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #D3D3D3;
+}
+
 .logo{
     background: white;
     display: inline-block;
-    width: 200px;
-    margin-top: 15px;
-    margin-left: 10px;
+    width: 100%;
+    margin-top: 2px;
     
 }
 
 .title{
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 15px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
+}
+
+#container-nav {
+    background-color: white;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    border-radius: 5px;  
+}
+
+.add-task{
+    background-color: #1E90FF;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.add-section{
+    background-color: white;
+    border: gray solid 1px;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-align: center;
+    color: gray;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
 }
