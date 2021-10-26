@@ -17,6 +17,7 @@ body{
 }
 
 .title{
+    vertical-align: middle;
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 30px;
@@ -30,6 +31,7 @@ body{
     margin-left: 25%;
     margin-right: 25%; 
     border-radius: 5px;  
+    
 }
 
 .add-task{
@@ -45,6 +47,7 @@ body{
     border-radius: 5px;
     margin-left: 30px;
     margin-top: 10px;
+    
 
 }
 
@@ -178,4 +181,21 @@ ul {
     height: 20px;
     padding-bottom: 5px;
     border-radius: 20px;
+}
+
+.cross{
+    color: red;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.check{
+    color: green;
+    font-size: 15px;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px;
+    font-weight: bold;
 }
